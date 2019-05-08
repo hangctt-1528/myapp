@@ -1,0 +1,8 @@
+version: "2"
+services:
+  app:
+    container_name: Node_express
+    restart: always
+    build: .
+    ports:
+      - "49160:8080"
